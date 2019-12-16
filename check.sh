@@ -15,8 +15,8 @@ system_check()
         fdisk -l      &> fdisk.$(date "+%m%d").out
         ps aux        &> ps.$(date "+%m%d").out
         dmesg -c      &> dmesg.$(date "+%m%d").out 
-	      systemctl     &> systemctl.$(date "+%m%d").out
-	      free -m       &> free_m.$(date "+%m%d").out
+        systemctl     &> systemctl.$(date "+%m%d").out
+        free -m       &> free_m.$(date "+%m%d").out
 }
 
 system_check
