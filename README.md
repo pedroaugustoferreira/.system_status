@@ -8,6 +8,8 @@ wget https://raw.githubusercontent.com/pedroaugustoferreira/.system_status/maste
 
 chmod +x check.sh
 
+crontab -e
+
 Crontab
 
 0 9 * * * /root/.system_status/check.sh &> /root/.system_status/check.log
