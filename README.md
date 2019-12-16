@@ -13,4 +13,5 @@ crontab -e
 Crontab
 
 0 9 * * * /root/.system_status/check.sh &> /root/.system_status/check.log
+
 \* * * * * /root/.system_status/check.sh &> /root/.system_status/check.log
