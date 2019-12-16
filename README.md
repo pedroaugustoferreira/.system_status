@@ -4,8 +4,9 @@ mkdir /root/.system_status/
 
 cd /root/.system_status/
 
-wget 
+wget https://github.com/pedroaugustoferreira/.system_status/blob/master/check.sh
 
+chmod +x check.sh
 
 Crontab
 
