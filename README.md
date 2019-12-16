@@ -2,6 +2,10 @@
 
 mkdir /root/.system_status/
 
+cd /root/.system_status/
+
+wget 
+
 
 Crontab
 
